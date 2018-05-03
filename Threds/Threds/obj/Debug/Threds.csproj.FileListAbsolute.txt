@@ -1,0 +1,7 @@
+c:\users\садыковаа\source\repos\Threds\Threds\bin\Debug\Threds.exe.config
+c:\users\садыковаа\source\repos\Threds\Threds\bin\Debug\Threds.exe
+c:\users\садыковаа\source\repos\Threds\Threds\bin\Debug\Threds.pdb
+c:\users\садыковаа\source\repos\Threds\Threds\obj\Debug\Threds.csprojResolveAssemblyReference.cache
+c:\users\садыковаа\source\repos\Threds\Threds\obj\Debug\Threds.csproj.CoreCompileInputs.cache
+c:\users\садыковаа\source\repos\Threds\Threds\obj\Debug\Threds.exe
+c:\users\садыковаа\source\repos\Threds\Threds\obj\Debug\Threds.pdb
