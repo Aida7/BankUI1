@@ -10,8 +10,6 @@ namespace BankDB
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public string Login { get; set; }
-        public string Password { get; set; }
         public float Telephone { get; set; }
         public int CardsId { get; set; }
         public Cards Cards { get; set; }

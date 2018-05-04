@@ -5,15 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BankDB"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBox HorizontalAlignment="Left" Height="39" Margin="266,135,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="225"/>
-        <PasswordBox HorizontalAlignment="Left" Height="39" Margin="266,218,0,0" VerticalAlignment="Top" Width="225"/>
-        <Label Content="Login" HorizontalAlignment="Left" Height="33" Margin="266,97,0,0" VerticalAlignment="Top" Width="162"/>
-        <Label Content="Password" HorizontalAlignment="Left" Height="33" Margin="266,185,0,0" VerticalAlignment="Top" Width="162"/>
-        <Button Content="Sign in" Click="SignIn_Clik"  HorizontalAlignment="Left" Height="37" Margin="282,320,0,0" VerticalAlignment="Top" Width="193"/>
-        <Button Content="Registration" HorizontalAlignment="Left" Height="31" Margin="597,357,0,0" VerticalAlignment="Top" Width="154"/>
-        <Label Content="Bank" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="330,25,0,0" Height="47" Width="80" FontSize="24" FontFamily="Sitka Small"/>
+        Title="MainWindow" Height="450" Width="729.286">
+    <Grid Margin="0,0,2,0">
+        <Label Content="Bank" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="306,23,0,0" Height="47" Width="80" FontSize="24" FontFamily="Sitka Small"/>
+        <Button Content="Перевод денег" Click="MoneyTransfer_Clik" HorizontalAlignment="Left" Height="30" Margin="26,89,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button Content="Сумма на счету" Click="InvoiceAmount_Clik" HorizontalAlignment="Left" Height="30" Margin="162,89,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button Content="Положить на счет" Click="ToDeposit_Clik" HorizontalAlignment="Left" Height="30" Margin="294,89,0,0" VerticalAlignment="Top" Width="116"/>
+        <Button Content="Снять деньги" Click="WithdrawMoney_Clik" HorizontalAlignment="Left" Height="30" Margin="434,89,0,0" VerticalAlignment="Top" Width="116"/>
+        <Button Content="Курсы валют" Click="ExchangeRates_Clik"  HorizontalAlignment="Left" Height="30" Margin="580,89,0,0" VerticalAlignment="Top" Width="116"/>
+        <TextBox Name="namberCard" HorizontalAlignment="Left" Height="29" Margin="52,198,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" Visibility="Hidden"/>
+        <TextBox Name="pin" HorizontalAlignment="Left" Height="29" Margin="52,270,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" Visibility="Hidden"/>
+        <TextBox Name="nameCard1" HorizontalAlignment="Left" Height="29" Margin="422,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="132" Visibility="Hidden"/>
+        <TextBox Name="cvv" HorizontalAlignment="Left" Height="29" Margin="222,258,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="73" Visibility="Hidden"/>
+        <Button Content="Выполнить операцию" HorizontalAlignment="Left" Height="31" Margin="268,360,0,0" VerticalAlignment="Top" Width="170" Click="Button_Click"/>
+        <Label Name="label1" Content="Namber card" HorizontalAlignment="Left" Height="33" Margin="52,164,0,0" VerticalAlignment="Top" Width="80" Visibility="Hidden"/>
+        <Label Name="label2" Content="Pin" HorizontalAlignment="Left" Height="35" Margin="52,234,0,0" VerticalAlignment="Top" Width="40" Visibility="Hidden"/>
+        <Label Name="label3" Content="CVV/CVN" HorizontalAlignment="Left" Height="35" Margin="220,222,0,0" VerticalAlignment="Top" Width="82" Visibility="Hidden"/>
+        <Label Name="label4" Content="Namber card" HorizontalAlignment="Left" Height="33" Margin="422,164,0,0" VerticalAlignment="Top" Width="80" Visibility="Hidden"/>
+        <Button Content="Info" HorizontalAlignment="Left" Height="31" Margin="616,360,0,0" VerticalAlignment="Top" Width="72"/>
+        <TextBox Name="sum" HorizontalAlignment="Left" Height="33" Margin="52,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132"/>
 
     </Grid>
 </Window>

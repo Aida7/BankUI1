@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace BankDB
 {
     /// <summary>
-    /// Логика взаимодействия для Operations.xaml
+    /// Логика взаимодействия для ExchangeRates.xaml
     /// </summary>
-    public partial class Operations : Window
+    public partial class ExchangeRates : Window
     {
-        public Operations()
+        public ExchangeRates()
         {
             InitializeComponent();
         }

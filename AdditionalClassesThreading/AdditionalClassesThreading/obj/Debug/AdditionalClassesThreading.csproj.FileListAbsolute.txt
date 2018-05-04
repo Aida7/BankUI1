@@ -1,0 +1,7 @@
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\bin\Debug\AdditionalClassesThreading.exe.config
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\bin\Debug\AdditionalClassesThreading.exe
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\bin\Debug\AdditionalClassesThreading.pdb
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\obj\Debug\AdditionalClassesThreading.csprojResolveAssemblyReference.cache
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\obj\Debug\AdditionalClassesThreading.csproj.CoreCompileInputs.cache
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\obj\Debug\AdditionalClassesThreading.exe
+c:\users\садыковаа\source\repos\AdditionalClassesThreading\AdditionalClassesThreading\obj\Debug\AdditionalClassesThreading.pdb
